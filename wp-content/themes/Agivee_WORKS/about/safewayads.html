@@ -1,0 +1,28 @@
+<html>
+</head>
+<title>Safeway</title>
+<script type="text/javascript">
+		function closeWindow(evt,link){
+			//alert(link);
+			//alert(evt);
+			if (evt.preventDefault) { 
+				evt.preventDefault(); 
+			}else{ 
+				evt.returnValue = false; 
+			}
+			window.open(link);
+			parent.jQuery.fancybox.close();
+		}
+	</script>
+<style>
+body {
+	font-family:Arial, Helvetica, sans-serif;
+}
+</style>
+</head><body>
+<div style="width:728px;height:190px;">
+  <h2 style="font-size:24px;">People of the Week</h2>
+    <p style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px;">People of the week is where you can go to learn more about your fellow Safeway Employees.  An algorithm provides us with two completely random backstage employees to feature each week.  Two people will be featured and a series of names will be displayed beneath each person's photo for you to guess from.  Once you select the correct person's name a bio can be accessed to help you get to know each person better.  It will also provide you the opportunity to introduce yourself or say hi.  Hope you enjoy it and have fun!</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+</head>
+<title>Safeway</title>
+<script type="text/javascript">
+		function closeWindow(evt,link){
+			//alert(link);
+			//alert(evt);
+			if (evt.preventDefault) { 
+				evt.preventDefault(); 
+			}else{ 
+				evt.returnValue = false; 
+			}
+			window.open(link);
+			parent.jQuery.fancybox.close();
+		}
+	</script>
+<style>
+body {
+	font-family:Arial, Helvetica, sans-serif;
+}
+</style>
+</head><body>
+<div style="width:728px;height:190px;">
+  <h2 style="font-size:24px;">And the answer is...</h2>
+    <p style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px;">As a result of Seelig's departure, <strong>the company held a contest in 1925 to develop a new name, the result of which was Safeway.</strong> The original slogan was "an admonition and an invitation" to "Drive the Safeway; Buy the Safeway." <a href="http://en.wikipedia.org/wiki/Safeway_Inc.#cite_note-7">[8]</a> <font style="text-decoration:underline">The point of the name was that the grocery operated on a <a href="http://en.wikipedia.org/wiki/Cash_and_carry_%28sales%29">cash-and-carry</a> basis; it did not offer credit, as had been traditional for grocers. It was the "safe way" to buy because a family could not get into debt via its grocery bill (as many families did, especially during the Great Depression)</font>.
+</p>
+</div>
+</body>
+</html>

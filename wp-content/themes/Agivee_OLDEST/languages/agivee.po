@@ -1,0 +1,333 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: agivee theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-23 16:21+0700\n"
+"PO-Revision-Date: 2010-08-23 16:21+0700\n"
+"Last-Translator: irkham maulana <imediapixel@gmail.com>\n"
+"Language-Team: Indonez <templates@indonez.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Country: INDONESIA\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:5
+msgid "Page Not Found!"
+msgstr ""
+
+#: ../404.php:15
+msgid "Apologies, but the page you requested could not be found."
+msgstr ""
+
+#: ../404.php:18
+msgid "try different search?"
+msgstr ""
+
+#: ../archive.php:11
+msgid "Posts Tagged"
+msgstr ""
+
+#: ../archive.php:13
+#: ../archive.php:15
+#: ../archive.php:17
+msgid "Archive for"
+msgstr ""
+
+#: ../archive.php:19
+msgid "Author Archive"
+msgstr ""
+
+#: ../archive.php:21
+msgid "Blog Archives"
+msgstr ""
+
+#: ../archive.php:40
+#: ../blog-template.php:52
+msgid "Posted by "
+msgstr ""
+
+#: ../archive.php:40
+#: ../archives.php:38
+#: ../blog-template.php:52
+msgid "0 Comment"
+msgstr ""
+
+#: ../archive.php:40
+#: ../archives.php:38
+#: ../blog-template.php:52
+msgid "1 Comment"
+msgstr ""
+
+#: ../archive.php:40
+#: ../archives.php:38
+#: ../blog-template.php:52
+msgid "% Comments"
+msgstr ""
+
+#: ../archive.php:52
+#: ../blog-template.php:64
+#: ../category-portfolio.php:56
+#: ../portfolio-template.php:71
+msgid "&laquo; Previous Entries"
+msgstr ""
+
+#: ../archive.php:53
+#: ../blog-template.php:65
+#: ../category-portfolio.php:57
+#: ../portfolio-template.php:72
+msgid "Next Entries &raquo;"
+msgstr ""
+
+#: ../archives.php:27
+msgid "The Last 10 Posts"
+msgstr ""
+
+#: ../archives.php:45
+msgid "Categories"
+msgstr ""
+
+#: ../archives.php:50
+msgid "Monthly Archives"
+msgstr ""
+
+#: ../category-portfolio.php:11
+msgid "Portfolio"
+msgstr ""
+
+#: ../category-portfolio.php:43
+#: ../portfolio-template.php:58
+msgid "Detail info &raquo;"
+msgstr ""
+
+#: ../category-testimonial.php:5
+msgid "Testimonials"
+msgstr ""
+
+#: ../comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: ../comments.php:9
+#: ../comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:30
+msgid "Comments for this entry"
+msgstr ""
+
+#: ../comments.php:30
+msgid "Comment for this entry"
+msgstr ""
+
+#: ../comments.php:45
+msgid "Trackbacks / Pingbacks for this entry "
+msgstr ""
+
+#: ../comments.php:45
+msgid "Trackback or Pingback for this entry"
+msgstr ""
+
+#: ../comments.php:56
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:62
+msgid "Leave a comment"
+msgstr ""
+
+#: ../comments.php:72
+msgid "logged in"
+msgstr ""
+
+#: ../comments.php:72
+msgid "to post a comment."
+msgstr ""
+
+#: ../comments.php:77
+msgid "Logout &raquo;"
+msgstr ""
+
+#: ../comments.php:79
+msgid "Name "
+msgstr ""
+
+#: ../comments.php:81
+msgid "Mail"
+msgstr ""
+
+#: ../comments.php:83
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:88
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:88
+msgid "(required)"
+msgstr ""
+
+#: ../contact-form.php:103
+msgid "Your email was successfully sent. I will be in touch soon."
+msgstr ""
+
+#: ../contact-form.php:114
+msgid "There was an error submitting the form."
+msgstr ""
+
+#: ../contact-form.php:120
+msgid "Name"
+msgstr ""
+
+#: ../contact-form.php:127
+#: ../contact-form.php:176
+msgid "Email"
+msgstr ""
+
+#: ../contact-form.php:133
+msgid "Subject"
+msgstr ""
+
+#: ../contact-form.php:140
+msgid "Message"
+msgstr ""
+
+#: ../contact-form.php:146
+msgid "If you want to submit this form, do not enter anything in this field"
+msgstr ""
+
+#: ../contact-form.php:160
+msgid "on the map"
+msgstr ""
+
+#: ../contact-form.php:176
+msgid "Phone "
+msgstr ""
+
+#: ../header.php:68
+msgid "Get in touch "
+msgstr ""
+
+#: ../header.php:82
+msgid "Search"
+msgstr ""
+
+#: ../index.php:9
+msgid "Welcome to "
+msgstr ""
+
+#: ../index.php:26
+msgid "Featured Project"
+msgstr ""
+
+#: ../index.php:34
+msgid "Our Services"
+msgstr ""
+
+#: ../index.php:50
+msgid "Get free quote now..!!"
+msgstr ""
+
+#: ../index.php:58
+msgid "What our client says"
+msgstr ""
+
+#: ../search.php:6
+msgid "Search Results for "
+msgstr ""
+
+#: ../search.php:32
+msgid "Nothing Found!"
+msgstr ""
+
+#: ../sidebar.php:12
+msgid "More "
+msgstr ""
+
+#: ../single.php:22
+msgid "Posted by :"
+msgstr ""
+
+#: ../slideshow_pages.php:26
+#: ../slideshow_posts.php:28
+msgid "Learn more &raquo;"
+msgstr ""
+
+#: ../include/metabox.php:150
+msgid "Post options"
+msgstr ""
+
+#: ../include/metabox.php:151
+msgid "Page options"
+msgstr ""
+
+#: ../include/theme-functions.php:30
+#: ../include/theme-functions.php:49
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../include/theme-functions.php:81
+msgid "Related Posts"
+msgstr ""
+
+#: ../include/theme-functions.php:112
+msgid "There is no related post."
+msgstr ""
+
+#: ../include/theme-functions.php:132
+msgid "Main Navigation"
+msgstr ""
+
+#: ../include/theme-widgets.php:225
+msgid "Latest News"
+msgstr ""
+
+#: ../include/theme-widgets.php:302
+msgid "Testimonial"
+msgstr ""
+
+#: ../include/theme-widgets.php:486
+#: ../widgets/social.php:7
+msgid "Get Connected"
+msgstr ""
+
+#: ../include/theme-widgets.php:533
+msgid "Twitter Update!"
+msgstr ""
+
+#: ../include/theme-widgets.php:573
+msgid "Sponsor"
+msgstr ""
+
+#: ../include/theme-widgets.php:612
+msgid "Our Address"
+msgstr ""
+
+#: ../include/theme-widgets.php:623
+msgid "Email "
+msgstr ""
+
+#: ../widgets/social.php:9
+msgid "Let's Get Personal"
+msgstr ""
+
+#: ../widgets/social.php:10
+msgid "Tweet with Us"
+msgstr ""
+
+#: ../widgets/social.php:11
+msgid "Check us Out"
+msgstr ""
+
+#: ../widgets/social.php:12
+msgid "Subscribe to Our Feed"
+msgstr ""
+
+#: ../widgets/twitter.php:2
+msgid "Twitter Update..!!"
+msgstr ""
+

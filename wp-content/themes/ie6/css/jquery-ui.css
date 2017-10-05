@@ -1,0 +1,188 @@
+#tabs {
+position:relative; top:27px; left:0px;background:#dedede;width:270px;padding-left: 6px;
+}
+.ui-tabs { position: relative; padding: .2em; zoom: 1;top:20px; left:100px; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav { 
+	height: 30px;
+    position: relative;
+    top: -18px;
+    width: 284px;}
+.ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 .2em 1px 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; background:#bbbbbb;}
+.ui-tabs .ui-tabs-nav li a { float: left;
+    padding: 6px 0 0 10px;
+    text-decoration: none; 
+    color:#333333;}
+
+/*Z TABS*/
+.ui-tabs .ui-tabs-nav {width: 262px;float:left;border:1px solid red;height:18px;background:green;}
+/*F1*/
+.ui-tabs-selected #f1{background: url("../images/ztab1_over.gif");
+    height: 19px;
+    margin-top: -15px;
+    padding-bottom: 0;
+    position: relative;
+    width: 63px;
+    }
+.ui-tabs-selected #f1 span{
+    color:#444;
+	font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+	width: 250px;
+	position: relative;
+    top: 3px;
+	left:16px;
+	text-decoration:none;
+    }
+#f1 { cursor: text; background: url("../images/ztab1_over.gif");
+    height: 19px;
+    margin-top: -19px;
+    padding-bottom: 0;
+    position: absolute;
+    width: 62px;
+    cursor: pointer;
+}
+#f1 span {
+    color: #FFF;
+	font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+    position: relative;
+    top: 3px;
+	left:16px;
+}
+/*F2*/
+.ui-tabs-selected #f2{background: url("../images/ztab1_over.gif") no-repeat scroll 0 0 red;
+    height: 16px;
+    margin-top: 5px;
+    padding-bottom: 0;
+    position: relative;
+    width: 63px;
+    }
+.ui-tabs-selected #f2 span{
+    color:#444;
+	font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+	width: 250px;
+	position: relative;
+    top: 3px;
+	left:9px;
+	text-decoration:none;
+    }
+#f2 { cursor: text; background: url("../images/ztab1_over.gif");
+    height: 18px;
+    margin-top: -33px;
+    padding-bottom: 0;
+    position: absolute;
+    width: 62px;
+    cursor: pointer;
+	left:68px;
+}
+#f2 span {
+    color: #FFF;
+	font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+    position: relative;
+    top: 3px;
+	left:11px;
+}
+/*F3*/
+
+.ui-tabs-selected #f3{background: url("../images/ztab1.gif") no-repeat scroll 0 0 #DEDEDE;
+    height: 16px;
+    margin-top: 5px;
+    padding-bottom: 0;
+    position: relative;
+    width: 50px;
+    }
+.ui-tabs-selected #f3 span{
+    color:#444;
+    }
+#f3 { cursor: text; background: url("../images/ztab1_over.gif") no-repeat scroll 0 0 #979797;
+    height: 16px;
+    margin-top: 5px;
+    padding-bottom: 0;
+    position: relative;
+    width: 50px;
+    cursor: pointer;
+    left: -1px;
+}
+#f3 span {
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: normal;
+    left: 4px;
+    position: relative;
+    top: -3px;
+}
+/*F4*/
+.ui-tabs-selected #f4{background: url("../images/ztab2_over.gif") no-repeat scroll 0 0 red;
+    height: 16px;
+    margin-top: 5px;
+    padding-bottom: 0;
+    position: relative;
+    width: 114px;
+    }
+.ui-tabs-selected #f4 span{
+    color:#444;
+	font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+	width: 250px;
+	position: relative;
+    top: 3px;
+	left:9px;
+	text-decoration:none;
+    }
+#f4 { cursor: text; background: url("../images/ztab2_over.gif");
+    height: 18px;
+    margin-top: -47px;
+    padding-bottom: 0;
+    position: absolute;
+    width: 109px;
+    cursor: pointer;
+	left:131px;
+}
+#f4 span {
+    color: #FFF;
+	font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+    position: relative;
+    top: 3px;
+	left:9px;
+	text-decoration:none;
+}
+
+.fa_top {
+margin: -44px 0 0 4px;
+}
+.fa_bot {
+margin: 0 0 0 10px;
+}
+.fa_bot  img{
+#margin: -4px 0 0 0;
+}
+
+.ui-tabs-selected span {color: #333333;
+    font-size: 11px;
+    font-weight: bold;
+    }
+
+.ui-tabs .ui-tabs-panel { background: none repeat scroll 0 0 transparent;
+    display: block;
+    height: 230px;border:0px;}
+div#fragment-4 { 
+    display: none;
+    height: 254px;border:0px;
+    background: url("../images/platebg.gif") no-repeat scroll 0 0 transparent;
+	margin-top:-30px;
+}
+div#fragment-2 { 
+    display: none;
+    height: 254px; border:0;
+    background: url("../images/careerbg.gif") no-repeat scroll 0 0 transparent;
+	margin-top:-30px;}
+

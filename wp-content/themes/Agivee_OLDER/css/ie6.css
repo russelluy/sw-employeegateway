@@ -1,0 +1,159 @@
+#top-header {height:88px;}
+.top-header_rt_nav{float: left;position: absolute;width: 510px;left: -57px;top:-88px;}
+#content1{float:left; width:300px;}
+#content2{float:left; width:660px;}
+#content3 {width: 200px;}
+.new_menuwrap_wrap {margin:0 auto;height:29px;}
+a#all_stocks  {position: absolute;right:1px;}
+#sw_ticker {color: #DDDDAF;float: left;list-style-type: none;margin: 7px 0 0px 377px;position: absolute;text-align: left;width: 470px;z-index: 1;height:15px;left:-215px; top:-7px;}
+.contentbox_1top {margin:0px;padding:0px;display:hidden;}
+.contentbox_1box {position:static;width:293px;}
+
+.content_wrap {width:100%; padding:10px 0 20px;}
+.new_bodywrap_wrap {width:1000px; margin:0 auto;}
+
+.contentbox_2box {width:289px; height:410px;float:left; border: 1px solid #C8C8C8;background:#fff;}
+.contentbox_2boxin {background:#dedede;background-image:url(images/box2_grad.gif);background-repeat:repeat-x;height: 404px;margin: 7px auto;width: 245px;overflow: auto;}
+
+.content2_bottom {float:left;margin-top:16px;width:485px;}
+.ffocus_slidebox {height:280px;}
+.contentbox_1boxin {margin: 7px auto;width: 274px;}
+.fa_bot {margin:0 0 0 12px;}
+.fa_top {margin:0 0 0 3px;}
+.ui-tabs .ui-tabs-nav {width:100%;padding-right:0px;margin-right:0px;}
+#tabs{background-color:red;width:275px;}
+
+/*Z TABS*/
+
+/*F1*/
+.ui-tabs-selected #f1{background: url("../images/ztab1.gif") no-repeat scroll 0 0 #DEDEDE;
+    height: 16px;
+    margin-top: 5px;
+	#margin-top: 9px;
+    padding-bottom: 0;
+    position: relative;
+    width: 50px;
+    }
+.ui-tabs-selected #f1 span{
+    color:#444;
+	font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+    }
+#f1 { cursor: text; background: url("../images/ztab1_over.gif") no-repeat scroll 0 0 #979797;
+    height: 16px;
+    margin-top: 5px;
+	#margin-top: 8px;
+    padding-bottom: 0;
+    position: relative;
+    width: 50px;
+    cursor: pointer;
+}
+#f1 span {
+    color: #FFF;
+	font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+    position: relative;
+    top: -3px;
+    left: 7px;
+}
+/*F2*/
+.ui-tabs-selected #f2{background: url("../images/ztab1.gif") no-repeat scroll 0 0 #DEDEDE;
+    height: 16px;
+    margin-top: 5px;
+	#margin-top: 9px;
+    padding-bottom: 0;
+    position: relative;
+    width: 50px;
+    }
+.ui-tabs-selected #f2 span{
+    color:#444;
+    }
+#f2 { cursor: text; background: url("../images/ztab1_over.gif") no-repeat scroll 0 0 #979797;
+    height: 16px;
+    margin-top: 5px;
+	#margin-top: 9px;
+    padding-bottom: 0;
+    position: relative;
+    width: 50px;
+    cursor: pointer;
+}
+#f2 span {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: normal;
+    position: relative;
+    top: -3px;
+	#left: -2px;
+}
+/*F3*/
+.ui-tabs-selected #f3{background: url("../images/ztab1.gif") no-repeat scroll 0 0 #DEDEDE;
+    height: 16px;
+    margin-top: 5px;
+    padding-bottom: 0;
+    position: relative;
+    width: 50px;
+    }
+.ui-tabs-selected #f3 span{
+    color:#444;
+    }
+#f3 { cursor: text; background: url("../images/ztab1_over.gif") no-repeat scroll 0 0 #979797;
+    height: 16px;
+    margin-top: 5px;
+    padding-bottom: 0;
+    position: relative;
+    width: 50px;
+    cursor: pointer;
+    left: -1px;
+}
+#f3 span {
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: normal;
+    left: 4px;
+    position: relative;
+    top: -3px;
+}
+/*F4*/
+.ui-tabs-selected #f4{background: url("../images/ztab2.gif") no-repeat scroll 0 0 #DEDEDE;
+    height: 16px;
+    margin-top: 5px;
+	#margin-top: 9px;
+    padding-bottom: 0;
+    position: relative;
+    width: 99px;
+    }
+.ui-tabs-selected #f4 span{
+    color:#444;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 0 0 2px
+    }
+#f4 { cursor: text; background: url("../images/ztab2_over.gif") no-repeat scroll 0 0 #979797;
+    height: 16px;
+    margin-top: 5px;
+	#margin-top: 8px;
+    padding-bottom: 0;
+    position: relative;
+    width: 99px;
+    cursor: pointer;
+}
+#f4 span {
+    color: #FFF;
+	font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+    position: relative;
+    top: -3px;
+    left: -2px;
+}
+
+
+
+
+
+
+
+

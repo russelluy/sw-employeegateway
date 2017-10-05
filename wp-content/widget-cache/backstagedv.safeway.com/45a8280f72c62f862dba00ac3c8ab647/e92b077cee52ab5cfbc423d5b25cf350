@@ -1,0 +1,42 @@
+a:1:{s:10:"__output__";s:1595:"<div class="widget"><div style="float:left;width:150px; margin-left: 3px; ">
+<div style="width:150px;margin-left: 6px;margin-top: 10px; ">
+<div class="try_again hidden" style="margin: 40px 0 0 127px;position: absolute;#margin: 40px 0 0 112px;">
+<input id="jquiz-tryagain" type="image" src="wp-content/themes/Agivee/images/TryAgainButton.jpg" name="TryAgain" width="44px" height="30px"/>
+		</div>
+<p>		<img src="wp-content/uploads/2012/04/4a5.jpg" style="border: 1px solid #C8C8C8; float: left; padding: 3px;" />
+	</div>
+<div style="float:left;width:150px;text-align:center;margin-top:10px;">
+<ul id="jquiz1">
+<li>
+<p style="text-align:center;color:black">What is my Name?</p>
+<ul>
+<li>Tonya Starr</li>
+<li>Kathy Wardman</li>
+<li class="correct">Cammie Jackson#https://backstagedv.safeway.com/employeegateway/?page_id=271</li>
+<li>Debra Morrow</li>
+</ul>
+<div class="explanation hidden">
+			</div>
+</li>
+</ul></div>
+</div>
+<div style="float:right;width:150px; margin-right: 3px;">
+<div style="width:150px;margin-left: 6px;margin-top: 10px; ">
+		<img src="wp-content/uploads/2012/04/4b5.jpg" style="margin-left:14px; border: 1px solid #C8C8C8; float: left; padding: 3px;" />
+	</div>
+<div style="float:left; text-align:center;width:150px;margin-top: 10px; ">
+<ul id="jquiz2">
+<li>
+<p style="text-align:center;color:black">What is my Name?</p>
+<ul>
+<li>Kevin Swader</li>
+<li>Dave Myllenbeck</li>
+<li>Edward Malone</li>
+<li class="correct">Alex Codelli#https://backstagedv.safeway.com/employeegateway/?page_id=1314</li>
+</ul>
+<div class="explanation hidden">
+			</div>
+</li>
+</ul></div>
+</div>
+</div>";}

@@ -1,0 +1,31 @@
+<html>
+</head>
+	<title>Safeway</title>
+	<script type="text/javascript">
+		function closeWindow(evt,link){
+			//alert(link);
+			//alert(evt);
+			if (evt.preventDefault) { 
+				evt.preventDefault(); 
+			}else{ 
+				evt.returnValue = false; 
+			}
+			window.open(link);
+			parent.jQuery.fancybox.close();
+		}
+	</script>
+</head>
+<body>
+	<div style="width:728px;height:338px;background-image:url(imgs/Ads_bg.jpg);background-repeat:no-repeat;">
+		<div style="position:relative; top:230px; left:20px;">
+				<div style="float:left;#margin-top:230px;#margin-left: 15px;">
+					<a href="http://www.safeway.com/IFL/Grocery/Home" onclick="closeWindow(event,this);"><img src="imgs/Ads_but1.jpg" onMouseOver="this.src='imgs/Ads_but1_over.jpg'" onMouseOut="this.src='imgs/Ads_but1.jpg'" alt="USA Ads" border="0" target="_blank"></a>
+				</div>
+				<div style="float:left;margin-left: 15px;#margin-top:230px;">
+					<a href="http://safeway.ca/"  onclick="closeWindow(event,this);"><img src="imgs/Ads_but2.jpg" onMouseOver="this.src='imgs/Ads_but2_over.jpg'" onMouseOut="this.src='imgs/Ads_but2.jpg'" alt="Canada Ads" border="0" target="_blank"></a>
+				</div>
+				<div style="clear:both;"></div>
+		</div>
+	</div>
+</body>
+</html>

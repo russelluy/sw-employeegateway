@@ -1,0 +1,30 @@
+.black {width:967px;color:#fff; margin:0 auto; position:relative;padding: 20px;
+background: url("<?php bloginfo('template_directory');?>/images/blackshine.png") no-repeat scroll 0 0 #000; 
+/* for IE */
+  filter:alpha(opacity=90);
+  /* CSS3 standard */
+  opacity:0.9;
+}
+.wrapgroup1 {width:100%;position:relative;background:#000;
+/* for IE */
+  filter:alpha(opacity=90);
+  /* CSS3 standard */
+  opacity:0.9;
+}
+.pulltail {width:100%; height:6px; position:relative;background-color:#fff;border-bottom:1px solid #666;}
+.pulltab{ float: right;position: absolute;right: 60px; top: 2px;#display:none;}
+
+/* Row N Columns
+------------------------------------------------------*/
+.black_ra { float: left;width:100%;font-family: verdana; font-size: 14px; font-weight: bold; border-bottom:1px solid #ccc;padding: 0 0 10px;}
+.black_ra_lft { float: left;width:200px;}
+.black_ra_rt_a { float: right;width:105px;#width:105px; }
+.black_ra_rt_aa { float: left;width:80px;font-weight: bold;cursor:pointer;}
+.black_ra_rt_b { float: left;width:15px;color:#aa0b00;font-weight: bold;}
+.black_rb { float: left;width:100%;}
+.black_rb_col { float: left;width:185px; margin:10px 10px 0 0;font-weight: bold;font-family: verdana; font-size: 13px; color:#feffcf;}
+.black_rb_col li{font-weight:none;font-size: 12px;font-weight: none; margin-left:8px; }
+.black_rb_col2 { float: left;width:185px; margin:10px 0 0 0;font-weight: bold;font-family: verdana; font-size: 13px;color:#feffcf;}
+.black_rb_col2 li {font-size: 12px;font-weight: none; margin-left:8px; }
+.black a {color:#fff;font-weight: lighter;}
+.black a:hover {color:#AA0B00;font-weight: lighter;}

@@ -1,0 +1,220 @@
+bP  {}
+
+H1  {
+	font-family: Arial, Helvetica, sans-serif;
+    color : #000066;
+	font-size : large;
+}
+
+H2  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size : medium;
+}
+
+H3  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size : medium;
+	font-style : italic
+}
+
+A  {}
+
+A:Visited  {
+	color : #CC0033;
+}
+
+A:Active  {
+	color : #336699;
+}
+
+A:Hover  {
+	color : #336699;
+}
+
+BODY  {}
+
+.menu  {
+	font-family : arial narrow;
+	font-size : small;
+	font-weight: bold
+}
+
+.subMenu  {
+	font-family : arial narrow;
+	font-size : small;
+	font-weight: normal;
+	margin-left : -15
+}
+
+.appTitle  {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : large;
+	font-weight: bold
+}
+
+.appNavBar  {
+	font-family : Arial, Helvetica, sans-serif;
+	text-align : center;
+	font-size : small;
+	background-color : Black;
+	color : White;
+	font-weight: bold
+	}
+
+.appNavBarSelected  {
+	font-family : Arial, Helvetica, sans-serif;
+	text-align : center;
+	font-size : small;
+	background-color : White;
+	color : #000099;
+	font-weight: bold
+}
+
+.formTitle  {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : medium;
+	color : #000000;
+}
+
+.tableHeadTop  {
+	background-color : #006699;
+	color : #FFFFFF;
+	font-weight : bold;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : medium;
+}
+
+.formHeadTop  {
+	background-color : #006699;
+	color : #FFFFFF;
+	font-weight : bold;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : medium;
+}
+
+.formHeadSide  {
+	background-color : #a9bed4;
+	font-weight : bold;
+	font-size : small;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.tableHeadSide  {
+	background-color : #a9bed4;
+	font-weight : bold;
+	font-size : small;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.tableDataEven  {
+	background-color : #FFFFFF;
+	font-size : small;
+}
+
+.tableDataOdd  {
+	background-color : #a9bed4;
+	font-size : small;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.tblHeader  {
+	background-color : #006699;
+	color : #FFFFFF;
+	font-weight : bold;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : medium;
+}
+
+.tblHeaderError  {
+	background-color : #fa9ba3;
+	color : #FFFFFF;
+	font-weight : bold;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : medium;
+}
+
+.tblTitle  {
+	background-color : #2b8aba;
+	color : #FFFFFF;
+	font-weight : bold;
+	font-size : small;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.tblTitleWarn  {
+	background-color : #FFFF44;
+	font-weight : bold;
+	font-size : small;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.tblTitleError  {
+	background-color : #fa9ba3;
+	color : #FFFFFF;
+	font-weight : bold;
+	font-size : small;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.tblSubTitle  {
+	background-color : #a9bed4;
+	font-weight : bold;
+	font-size : small;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.tblSubTitleWarn  {
+	background-color : #FFFFCC;
+	font-weight : bold;
+	font-size : small;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.tblSubTitleError  {
+	background-color : #fa9ba3;
+	font-weight : bold;
+	font-size : small;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.tblText  {
+	font-size : small;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.tblTextWarn  {
+	background-color : #FFFFCC;
+	font-size : small;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.tblTextError  {
+	background-color : #fa9ba3;
+	font-size : small;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.tblTextAlt  {
+	font-size : small;
+	font-family : Arial, Helvetica, sans-serif;
+	background-color : #CCCCCC;
+}
+
+.tblFormField  {
+	font-size : small;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.tblFormFieldWarn  {
+	font-size : small;
+	font-family : Arial, Helvetica, sans-serif;
+	background-color : #FFFFCC;
+}
+
+.tblFormFieldError  {
+	font-size : small;
+	font-family : Arial, Helvetica, sans-serif;
+	background-color : #fa9ba3;
+}
+
+.pError {  color: Red}

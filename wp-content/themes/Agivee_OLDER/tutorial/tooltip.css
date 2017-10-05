@@ -1,0 +1,760 @@
+@charset "utf-8";
+/* CSS Document */
+/*------------------POPUPS------------------------*/
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	background-color:#f4f4f4;
+	background-image:url(images/bg.jpg);
+	background-repeat:repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.popup_block {
+	background-image:url(images/bg2.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+	width:977px;
+	height: 1143px;
+	font-size: 1.2em;
+	position: relative;
+	/*	position: fixed;*/
+	margin-left:auto;
+	margin-right:auto;
+	z-index: 99999;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #ddd;
+	border-right-color: #ddd;
+	border-bottom-color: #ddd;
+	border-left-color: #ddd;
+}
+img.btn_close {
+	position:absolute;
+	top:30px;
+	right: -60px;
+}
+.popup p {
+	padding: 5px 10px;
+	margin: 5px 0;
+}
+/*--Making IE6 Understand Fixed Positioning--*/
+*html #fade {
+	position: absolute;
+}
+*html .popup_block {
+	position: absolute;
+}
+img {
+	border:none;
+}
+#welcome {
+	width:460px;
+	height:64px;
+	position:relative;
+	float:left;
+	background-image:url(images/tooltipimages/tutorialtitle.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	z-index:1;
+}
+/*-------------------------ARROW LEFT--------------------------*/
+#arrow {
+	width:23px;
+	height:100%;
+	position:relative;
+	float:left;
+	background-image:url(images/tooltipimages/arrow.png);
+	background-position:right center;
+	background-repeat:no-repeat;
+}
+#tooltipcontent {
+	width:297px;
+	position:relative;
+	float:right;
+	background-image:url(images/tooltipimages/bg.png);
+}
+/*-------------------------ARROW RIGHT--------------------------*/
+#arrow2 {
+	width:23px;
+	height:100%;
+	position:relative;
+	float:right;
+	background-image:url(images/tooltipimages/arrowright.png);
+	background-position:right center;
+	background-repeat:no-repeat;
+}
+#tooltipcontent2 {
+	width:297px;
+	position:relative;
+	float:left;
+	background-image:url(images/tooltipimages/bg.png);
+}
+/*-------------------------ARROW BOTTOM--------------------------*/
+#arrow3 {
+	width:100%;
+	height:23px;
+	position:relative;
+	float:right;
+	background-image:url(images/tooltipimages/arrowtop.png);
+	background-position:bottom center;
+	background-repeat:no-repeat;
+}
+#tooltipcontent3 {
+	width:297px;
+	position:relative;
+	float:left;
+	background-image:url(images/tooltipimages/bg.png);
+}
+/*-------------------------ARROW TOP--------------------------*/
+#arrow4 {
+	width:100%;
+	height:23px;
+	position:relative;
+	float:right;
+	background-image:url(images/tooltipimages/arrowdown.png);
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+#tooltipcontent4 {
+	width:297px;
+	position:relative;
+	float:left;
+	background-image:url(images/tooltipimages/bg.png);
+}
+/*-------------------------GROUP 1--------------------------*/
+#group1 {
+	position:relative;
+	float:left;
+	width:977px;
+	height: 89px;
+	z-index:9999999;
+}
+/*-------------------------GROUP 2--------------------------*/
+#group2 {
+	position:relative;
+	float:left;
+	width:977px;
+	height: 28px;
+	z-index:9999998;
+}
+/*-------------------------GROUP 3--------------------------*/
+#group3 {
+	position:relative;
+	float:left;
+	width:977px;
+	height: 365px;
+	z-index:9999997;
+}
+/*-------------------------GROUP 4--------------------------*/
+#group4 {
+	position:relative;
+	float:left;
+	width:290px;
+	height: 700px;
+	z-index:9999999;
+}
+/*-------------------------GROUP 5--------------------------*/
+#group5 {
+	position:relative;
+	float:right;
+	width:687px;
+	height: 700px;
+	z-index:9999998;
+}
+/*-------------------------TOOLTIP STYLES--------------------------*/
+.tooltipheader {
+	display:block;
+	color:#fff;
+	font-weight:normal;
+	font-style:italic;
+	font-family:Arial, Helvetica, sans-serif;
+	position:relative;
+	float:left;
+	clear:left;
+	font-size:24px;
+	line-height:25px;
+	margin-top:15px;
+	margin-bottom:10px;
+	margin-left:15px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF9;
+}
+.tooltipheader2 {
+	width:210px;
+	display:block;
+	color:#fff;
+	font-weight:normal;
+	font-style:italic;
+	font-family:Arial, Helvetica, sans-serif;
+	position:relative;
+	float:left;
+	clear:left;
+	font-size:24px;
+	line-height:25px;
+	margin-top:15px;
+	margin-bottom:10px;
+	margin-left:15px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF9;
+}
+.tooltipheader3 {
+	width:185px;
+	display:block;
+	color:#fff;
+	font-weight:normal;
+	font-style:italic;
+	font-family:Arial, Helvetica, sans-serif;
+	position:relative;
+	float:left;
+	clear:left;
+	font-size:24px;
+	line-height:25px;
+	margin-top:15px;
+	margin-bottom:10px;
+	margin-left:15px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF9;
+}
+.tooltiptime {
+	width:275px;
+	position:relative;
+	float:left;
+	clear:left;
+	font-size:11px;
+	line-height:15px;
+	color: #fff;
+	margin-left:15px;
+}
+/*-------------------------TOOLTIP--------------------------*/
+#tooltip {
+	width:440px;
+	height:28px;
+	position:relative;
+	display:block;
+	float:right;
+	background-image:url(images/tooltipimages/allnumbers.png);
+	background-position: center 0px;
+	background-repeat:no-repeat;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #999;
+	list-style-type:none;
+	z-index:9999999;
+}
+#tooltip li {
+	width:100%;
+	height:100%;
+	display:block;
+	float:left;
+	position:relative;
+	margin-right:20px;
+	list-style-type:none;
+}
+#tooltip li span.hover {
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(images/tooltipimages/boxes/box1.jpg) no-repeat;
+	background-position: right center;
+	background-color:#fff;
+	top: 0;
+	left: 0;
+}
+#tooltip span.tool {
+	width: 320px;
+	height: 134px;
+	position: absolute;
+	left: -20%;
+	top: -50%;
+	text-align: left;
+	display: none;
+	color:#000;
+	cursor:pointer;
+	z-index:9999999;
+}
+/*-------------------------TOOLTIP--------------------------*/
+#tooltip2 {
+	margin-top:3px;
+	border:1px solid #999;
+	width:320px;
+	height:28px;
+	display:block;
+	position:relative;
+	float:right;
+	clear:right;
+	background-image:url(images/tooltipimages/allnumbers.png);
+	background-position: center -28px;
+	background-repeat:no-repeat;
+	list-style-type:none;
+	z-index:1;
+}
+#tooltip2 li span.hover {
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(images/tooltipimages/boxes/box2.jpg) no-repeat;
+	background-position: center center;
+	background-color:#fff;
+	top: 0;
+	left: 0;
+}
+#tooltip2 span.tool {
+	width: 320px;
+	height: 120px;
+	position: absolute;
+	left: 0%;
+	top: -50%;
+	text-align: left;
+	display: none;
+	color:#000;
+	cursor:pointer;
+	z-index:9999999;
+}
+/*-------------------------TOOLTIP--------------------------*/
+#tooltip3 {
+	margin-top:1px;
+	border:1px solid #999;
+	width:60px;
+	height:28px;
+	display:block;
+	float:left;
+	position:relative;
+	clear:left;
+	background-image:url(images/tooltipimages/allnumbers.png);
+	background-position: center -28px;
+	background-repeat:no-repeat;
+	list-style-type:none;
+}
+#tooltip3 li span.hover {
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(images/tooltipimages/boxes/box3.jpg) no-repeat;
+	background-position: center center;
+	background-color:#fff;
+	top: 0;
+	left: 0;
+}
+#tooltip3 span.tool {
+	width: 320px;
+	height: 96px;
+	position: absolute;
+	left: 60%;
+	top: 0%;
+	text-align: left;
+	display: none;
+	color:#000;
+	cursor:pointer;
+}
+/*-------------------------TOOLTIP--------------------------*/
+#tooltip4 {
+	margin-top:1px;
+	border:1px solid #999;
+	width:150px;
+	height:28px;
+	position:relative;
+	float:right;
+	display:block;
+	background-image:url(images/tooltipimages/allnumbers.png);
+	background-position: center -56px;
+	background-repeat:no-repeat;
+	list-style-type:none;
+}
+#tooltip4 li span.hover {
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(images/tooltipimages/boxes/box4.jpg) no-repeat;
+	background-position: center center;
+	background-color:#000;
+	top: 0;
+	left: 0;
+}
+#tooltip4 span.tool {
+	width: 320px;
+	height: 96px;
+	position: absolute;
+	right: 120px;
+	top: -105%;
+	text-align: left;
+	display: none;
+	color:#000;
+	cursor:pointer;
+	z-index:99999999;
+}
+/*-------------------------TOOLTIP--------------------------*/
+#tooltip5 {
+	border:1px solid #999;
+	width:289px;
+	height:344px;
+	margin-left:2px;
+	display:block;
+	float:left;
+	position:relative;
+	margin-top:12px;
+	background-image:url(images/tooltipimages/numbers/4.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	list-style-type:none;
+	z-index:2;
+}
+#tooltip5 li span.hover {
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(images/tooltipimages/boxes/box5.jpg) no-repeat;
+	background-position: center center;
+	background-color:#fff;
+	top: 0;
+	left: 0;
+}
+#tooltip5 span.tool {
+	width: 320px;
+	height: 278px;
+	position: absolute;
+	left: 50%;
+	top: 5%;
+	text-align: left;
+	display: none;
+	color:#fff;
+	cursor:pointer;
+	z-index:99999999;
+}
+/*-------------------------TOOLTIP--------------------------*/
+#tooltip6 {
+	margin-top:12px;
+	margin-left:8px;
+	border:1px solid #999;
+	width:670px;
+	height:344px;
+	position:relative;
+	float:left;
+	display:block;
+	background-image:url(images/tooltipimages/numbers/5.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	list-style-type:none;
+	z-index:1;
+}
+#tooltip6 li span.hover {
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(images/tooltipimages/boxes/box6.jpg) no-repeat;
+	background-position: center center;
+	background-color:#fff;
+	top: 0;
+	left: 0;
+}
+#tooltip6 span.tool {
+	width: 320px;
+	height: 288px;
+	position: absolute;
+	left: 50%;
+	top: 5%;
+	text-align: left;
+	display: none;
+	color:#000;
+	cursor:pointer;
+	z-index:999999999;
+}
+/*-------------------------TOOLTIP--------------------------*/
+#tooltip7 {
+	margin-left:15px;
+	margin-top:9px;
+	border:1px solid #999;
+	width:326px;
+	height:334px;
+	display:block;
+	float:left;
+	position:relative;
+	background-image:url(images/tooltipimages/numbers/5.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	list-style-type:none;
+	z-index:1;
+}
+#tooltip7 li span.hover {
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(images/tooltipimages/boxes/box7.jpg) no-repeat;
+	background-position: center center;
+	background-color:#fff;
+	top: 0;
+	left: 0;
+}
+#tooltip7 span.tool {
+	width: 320px;
+	height: 195px;
+	position: absolute;
+	right: 120px;
+	bottom:0%;
+	text-align: left;
+	display: none;
+	color:#000;
+	cursor:pointer;
+	z-index:99999999;
+}
+/*-------------------------TOOLTIP--------------------------*/
+#tooltip8 {
+	margin-left:2px;
+	margin-top:11px;
+	border:1px solid #999;
+	width:289px;
+	height:275px;
+	display:block;
+	float:left;
+	position:relative;
+	clear:left;
+	background-image:url(images/tooltipimages/numbers/6.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	list-style-type:none;
+	z-index:1;
+}
+#tooltip8 li span.hover {
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(images/tooltipimages/boxes/box8.jpg) no-repeat;
+	background-position: center center;
+	background-color:#fff;
+	top: 0;
+	left: 0;
+}
+#tooltip8 span.tool {
+	width: 320px;
+	height: 210px;
+	position: absolute;
+	left: 120px;
+	top: 5%;
+	text-align: left;
+	display: none;
+	color:#000;
+	cursor:pointer;
+	z-index:99999999;
+}
+/*-------------------------TOOLTIP--------------------------*/
+#tooltip9 {
+	border:1px solid #999;
+	width:672px;
+	height:167px;
+	display:block;
+	float:left;
+	position:relative;
+	margin-top:12px;
+	margin-left:11px;
+	clear:left;
+	background-image:url(images/tooltipimages/numbers/7.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	list-style-type:none;
+}
+#tooltip9 li span.hover {
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(images/tooltipimages/boxes/box9.jpg) no-repeat;
+	background-position: center center;
+	background-color:#fff;
+	top: 0;
+	left: 0;
+}
+#tooltip9 span.tool {
+	width: 295px;
+	height: 281px;
+	position: absolute;
+	left: 0%;
+	bottom: -10%;
+	text-align: left;
+	display: none;
+	color:#000;
+	cursor:pointer;
+	z-index:99999999;
+}
+/*-------------------------TOOLTIP--------------------------*/
+#tooltip10 {
+	border:1px solid #999;
+	width:672px;
+	height:130px;
+	display:block;
+	float:left;
+	position:relative;
+	margin-top:20px;
+	margin-left:11px;
+	background-image:url(images/tooltipimages/numbers/8.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	list-style-type:none;
+}
+#tooltip10 li span.hover {
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(images/tooltipimages/boxes/box10.jpg) no-repeat;
+	background-position: center center;
+	background-color:#fff;
+	top: 0;
+	left: 0;
+}
+#tooltip10 span.tool {
+	width: 289px;
+	height: 333px;
+	position: absolute;
+	left: 50%;
+	bottom: -50%;
+	text-align: left;
+	display: none;
+	color:#000;
+	cursor:pointer;
+	z-index:99999999;
+}
+/*-------------------------TOOLTIP--------------------------*/
+#tooltip11 {
+	border:1px solid #999;
+	width:289px;
+	height:352px;
+	display:block;
+	float:left;
+	position:relative;
+	clear:left;
+	margin-top:18px;
+	margin-left:2px;
+	background-image:url(images/tooltipimages/numbers/9.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	list-style-type:none;
+}
+#tooltip11 li span.hover {
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(images/tooltipimages/boxes/box11.jpg) no-repeat;
+	background-position: center center;
+	background-color:#fff;
+	top: 0;
+	left: 0;
+}
+#tooltip11 span.tool {
+	width:320px;
+	height:126px;
+	position: absolute;
+	left: 120px;
+	top: 0%;
+	text-align: left;
+	display: none;
+	color:#000;
+	cursor:pointer;
+	z-index:99999999;
+}
+/*-------------------------TOOLTIP--------------------------*/
+#tooltip12 {
+	margin-left:11px;
+	margin-top:18px;
+	border:1px solid #999;
+	width:331px;
+	height:307px;
+	display:block;
+	float:left;
+	position:relative;
+	background-image:url(images/tooltipimages/numbers/10.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	list-style-type:none;
+}
+#tooltip12 li span.hover {
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(images/tooltipimages/boxes/box12.jpg) no-repeat;
+	background-position: center center;
+	background-color:#fff;
+	top: 0;
+	left: 0;
+}
+#tooltip12 span.tool {
+	width: 320px;
+	height:223px;
+	position: absolute;
+	left: 120px;
+	top: 15%;
+	text-align: left;
+	display: none;
+	color:#000;
+	cursor:pointer;
+	z-index:99999999;
+}
+/*-------------------------TOOLTIP--------------------------*/
+#tooltip13 {
+	margin-left:11px;
+	margin-top:18px;
+	border:1px solid #999;
+	width:330px;
+	height:307px;
+	display:block;
+	float:left;
+	position:relative;
+	background-image:url(images/tooltipimages/numbers/11.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	list-style-type:none;
+}
+#tooltip13 li span.hover {
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(images/tooltipimages/boxes/box13.jpg) no-repeat;
+	background-position: center center;
+	background-color:#fff;
+	top: 0;
+	left: 0;
+}
+#tooltip13 span.tool {
+	width: 320px;
+	height: 126px;
+	position: absolute;
+	right: 120px;
+	top: 50%;
+	text-align: left;
+	display: none;
+	color:#000;
+	cursor:pointer;
+	z-index:99999999;
+}

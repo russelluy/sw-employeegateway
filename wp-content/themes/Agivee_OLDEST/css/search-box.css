@@ -1,0 +1,37 @@
+/* Search styling */
+.search-fieldset{border:none;}
+#search-box{padding-bottom:6px; float:left; height:23px;}
+#s{
+font:12px Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#c8c9be;
+padding:4px 30px 3px 3px;
+background:#fff;
+border:1px solid #d9d9d9;
+width:185px;
+}
+#s:focus{
+border:1px solid #adacac;
+color:#adacac;
+}
+#search .go{
+position:absolute;
+margin:3px 0 0 -26px;
+background: url(../images/search-icon.gif);
+height: 17px;
+width: 18px;
+cursor:pointer;
+border: none; 
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#search .go {
+position:absolute;
+margin:-19px 0 0 198px;
+background: url(../images/search-icon.gif);
+height: 17px;
+width: 18px;
+cursor:pointer;
+border: none;
+display:block; 
+}
+}

@@ -1,0 +1,10 @@
+.tooltip{
+	position: absolute !important;
+	top: 215px !important;
+}
+.content_wrap p {
+    position: static!important;
+}
+
+#content3 a{color:#287AE3!important;}
+#content3 a:hover{color:#aaa!important;}
